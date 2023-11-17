@@ -1,0 +1,100 @@
+.dataTables_wrapper select,
+.dataTables_wrapper .dataTables_filter input {
+    color: #000;
+    /*text-gray-700*/
+    padding-left: 1rem;
+    /*pl-4*/
+    padding-right: 1rem;
+    /*pl-4*/
+    padding-top: .5rem;
+    /*pl-2*/
+    padding-bottom: .5rem;
+    /*pl-2*/    
+    line-height: 1.25;
+    /*leading-tight*/
+    border-width: 2px;
+    /*border-2*/
+    border-radius: .50rem;
+    border-color: #E0134C;
+    /*border-gray-200*/
+    background-color: #fff;
+    /*bg-gray-200*/
+    margin-bottom: 20px;
+}
+
+table.dataTable.hover tbody tr:hover,
+table.dataTable.display tbody tr:hover {
+    background-color: #fff;
+}
+
+/*Pagination Buttons*/
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: #fff !important;
+    font-weight: 700;
+    /*font-bold*/
+    border-radius: .25rem;
+    /*rounded*/
+    border: 1px solid transparent;
+    /*border border-transparent*/
+}
+
+/*Pagination Buttons - Current selected */
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: #000 !important;
+    /*text-white*/
+    font-weight: 700;
+    /*font-bold*/
+    border-radius: .25rem;
+    /*rounded*/
+    background: #fff !important;
+    /*bg-indigo-500*/
+    border: 2px solid #E0134C;
+    /*border border-transparent*/
+}
+
+/*Pagination Buttons - Hover */
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: #ddd !important;
+    /*text-white*/
+    font-weight: 700;
+    /*font-bold*/
+    border-radius: .25rem;
+    /*rounded*/
+    background: #ddd !important;
+    /*bg-indigo-500*/
+    border: 1px solid #E0134C;
+    /*border border-transparent*/
+}
+
+/*Add padding to bottom border */
+table.dataTable.no-footer {
+    border-bottom: 1px solid #E0134C;
+    /*border-b-1 border-gray-300*/
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+/*Change colour of responsive icon*/
+table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before,
+table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {
+    background-color: #E0134C !important;
+    /*bg-indigo-500*/
+}
+
+table.sorting {
+    border-bottom: 1px solid #E0134C;
+}
+
+.dataTables_wrapper .dataTables_info {
+    clear: both;
+    float: left;
+    padding-top: 0.755em;
+    font-weight: 900;
+}
+
+.deskripsi p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
